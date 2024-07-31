@@ -1,4 +1,5 @@
-# 2024-07-workshop-unit-testing-dotnet
+# Workshop - Unit Testing with .NET
+
 Project presented at the workshop on the topic of unit testing with .NET.
 
 # Steps
@@ -6,4 +7,3 @@ Project presented at the workshop on the topic of unit testing with .NET.
 Branches were created for each stage of the development process.
 
 - step1: create the basic project structure.
-- 

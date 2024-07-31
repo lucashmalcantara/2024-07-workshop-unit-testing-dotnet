@@ -1,4 +1,4 @@
-namespace Examples.Notification.Api
+namespace Examples.Notification.Api.Domain.Models
 {
     public class WeatherForecast
     {

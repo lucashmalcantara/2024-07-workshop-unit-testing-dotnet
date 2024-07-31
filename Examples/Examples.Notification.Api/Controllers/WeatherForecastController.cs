@@ -1,3 +1,4 @@
+using Examples.Notification.Api.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Examples.Notification.Api.Controllers
