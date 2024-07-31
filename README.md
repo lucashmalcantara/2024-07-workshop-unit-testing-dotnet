@@ -19,3 +19,4 @@ Branches were created for each stage of the development process.
 ## How to run
 
 1. Run the project in Visual Studio.
+2. In Visual Studio, go to the file `Examples.Notification.Api.http` to execute the requests.
