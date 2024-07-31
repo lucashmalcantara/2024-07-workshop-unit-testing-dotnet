@@ -14,7 +14,7 @@ Project presented at the workshop on the topic of unit testing with .NET.
 
 Branches were created for each stage of the development process.
 
-- step1: create the basic project structure.
+- `step1`: create the basic project structure.
 
 ## How to run
 
