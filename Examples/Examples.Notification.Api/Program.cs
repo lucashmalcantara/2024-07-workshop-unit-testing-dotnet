@@ -1,4 +1,6 @@
 
+using Examples.Notification.Api.Application;
+using Examples.Notification.Api.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -18,6 +20,10 @@ namespace Examples.Notification.Api
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddCommands()
+                            .AddInfraServices()
+                            .AddRepositories();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -27,13 +33,7 @@ namespace Examples.Notification.Api
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
-
-            app.UseAuthorization();
-
-
             app.MapControllers();
-
             app.Run();
         }
     }

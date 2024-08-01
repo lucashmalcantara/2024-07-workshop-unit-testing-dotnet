@@ -1,6 +1,25 @@
 @baseUrl = http://localhost:5076
 
-GET {{baseUrl}}/weatherforecast/
+POST {{baseUrl}}/email/send
 Accept: application/json
+Content-Type: application/json
 
-###
+{
+  "from": "lucas@email.com",
+  "to": "all@email.com",
+  "subject": "Hello",
+  "message": "Hello world!"
+}
+
+### 
+
+POST {{baseUrl}}/email/send
+Accept: application/json
+Content-Type: application/json
+
+{
+  "from": "invalid",
+  "to": "invalid",
+  "subject": "A",
+  "message": "You're so foolish!"
+}
