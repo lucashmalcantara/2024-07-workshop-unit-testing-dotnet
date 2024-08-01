@@ -17,6 +17,7 @@ Branches were created for each stage of the development process.
 - `step1`: create the basic project structure.
 - `step2`: think about abstractions and create tests.
 	- It is common to start creating tests for a class and realize that the responsibility of a function should be transferred to another class. **Feel free to change the route as you wish.**
+- `step3`: refactor your code and apply improvement :)
 
 ## How to run
 
