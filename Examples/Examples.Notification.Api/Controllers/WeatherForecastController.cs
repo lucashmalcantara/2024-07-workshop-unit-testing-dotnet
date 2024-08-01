@@ -1,5 +1,9 @@
 using Examples.Notification.Api.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Examples.Notification.Api.Controllers
 {

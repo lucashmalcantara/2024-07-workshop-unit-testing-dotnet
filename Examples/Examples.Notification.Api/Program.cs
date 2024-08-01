@@ -1,4 +1,8 @@
 
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+
 namespace Examples.Notification.Api
 {
     public class Program
